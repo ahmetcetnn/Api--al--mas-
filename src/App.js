@@ -1,11 +1,16 @@
-import useState from "react"
+
 import './App.css';
+import UpComing from "./Pages/UpComing";
+
+
 
 function App() {
-  const [movies,setMovies] =useState([])
+  
+
+
   return (
-    <div className="App">
-      
+    <div >
+      <UpComing/>
     </div>
   );
 }
