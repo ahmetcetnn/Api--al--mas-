@@ -2,7 +2,7 @@ import { useState,useEffect } from "react"
 import '../App.css';
 import MovieBox from "../Components/MovieBox";
 import React from "react";
-import '@splidejs/react-splide/css';
+
 
 
 
@@ -11,7 +11,7 @@ import '@splidejs/react-splide/css';
 // "https://api.themoviedb.org/3/movie/popular?api_key=002f45e7d56066b7503bddca0e16ee67"
 function UpComing() {
   const [movies,setMovies] =useState([])
-  const API_URL = "https://api.themoviedb.org/3/movie/upcoming?api_key=002f45e7d56066b7503bddca0e16ee67"
+  const API_URL = "https://api.themoviedb.org/3/movie/upcoming?api_key=002f45e7d56066b7503bddca0e16ee67&lanuage=tr"
   
   useEffect(() => {
     fetch(API_URL)
@@ -27,7 +27,7 @@ function UpComing() {
 
   return (
     <div className="container">
-      <h1>UPCOMING MOVIES</h1>
+      <h1 style={{color:"white"}}>Gelecek Filmler</h1>
       <div className="grid">
       {movies.map((movie)=> <MovieBox 
       
