@@ -19,7 +19,7 @@ const MovieBox =({title, poster_path, vote_average, release_date, overview})=>{
                   <button type="button" className="btn btn-dark" onClick={handleShow} >Daha Fazla</button>
                  
                   <Modal show={show} onHide={handleClose}>
-                      <Modal.Header closeButton>
+                      <Modal.Header closeButton>sxxs
                         <Modal.Title></Modal.Title>
                       </Modal.Header>xcc
                       <Modal.Body>
