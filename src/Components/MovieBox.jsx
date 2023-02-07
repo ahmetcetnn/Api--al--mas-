@@ -16,7 +16,7 @@ const MovieBox =({title, poster_path, vote_average, release_date, overview})=>{
               
               <div className="card-body">
                 
-                  <button type="button" className="btn btn-dark" onClick={handleShow} >Dsaha Fazla</button>
+                  <button type="button" className="btn btn-dark" onClick={handleShow} >Dsaha Faszla</button>
                  
                   <Modal show={show} onHide={handleClose}>
                       <Modal.Header closeButton>
