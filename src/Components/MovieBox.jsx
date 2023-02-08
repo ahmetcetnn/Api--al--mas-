@@ -16,7 +16,7 @@ const MovieBox =({title, poster_path, vote_average, release_date, overview})=>{
               
               <div className="card-body">
                 
-                  <button type="button" className="btn btn-dark" onClick={handleShow} >Dsaha Faszla</button>
+                  <button type="button" className="btn btn-dark" onClick={handleShow} >Daha Fazla</button>
                  
                   <Modal show={show} onHide={handleClose}>
                       <Modal.Header closeButton>
@@ -25,14 +25,14 @@ const MovieBox =({title, poster_path, vote_average, release_date, overview})=>{
                       <Modal.Body>
                       <img className="card-img-top" style={{width:'14rem'}}src={API_IMG+poster_path} />
                       <h3>{title}</h3>
-                      <h4>IMDb:a {vote_average}</h4>
-                      <h5>Vizyons Tarrihi: {release_date}</h5>
+                      <h4>IMDb: {vote_average}</h4>
+                      <h5>Vizyon Tsarihi: {release_date}</h5>
                       <br></br>
                       <h6>Genel Bakış</h6>
                       <p>{overview}</p>
                       </Modal.Body>
                       <Modal.Footer>
-                          <Button variant="secondary" onClick={handleClose}>Kdapsat</Button>
+                          <Button variant="secondary" onClick={handleClose}>Kapat</Button>
                       </Modal.Footer>
                   </Modal>
               </div>
