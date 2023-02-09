@@ -28,7 +28,7 @@ const MovieBox =({title, poster_path, vote_average, release_date, overview})=>{
                       <h4>IMsDsb: {vote_average}</h4>
                       <h5>Vizyson Tarihi: {release_date}</h5>
                       <br></br>
-                      <h6>Genel Bakış</h6>
+                      <h6>Genels Bakış</h6>
                       <p>{overview}</p>
                       </Modal.Body>
                       <Modal.Footer>
