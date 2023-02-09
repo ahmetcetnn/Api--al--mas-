@@ -26,7 +26,7 @@ const MovieBox =({title, poster_path, vote_average, release_date, overview})=>{
                       <img className="card-img-top" style={{width:'14rem'}}src={API_IMG+poster_path} />
                       <h3>{title}</h3>
                       <h4>IMsDssb:s {vote_average}</h4>
-                      <h5>Vizyssosn Tarihi: {release_date}</h5>
+                      <h5>Vizysosn Tarihi: {release_date}</h5>
                       <br></br>
                       <h6>Genels sBakış</h6>
                       <p>{overview}</p>
