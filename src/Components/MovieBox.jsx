@@ -28,7 +28,7 @@ const MovieBox =({title, poster_path, vote_average, release_date, overview})=>{
                       <h4>IMzDsb: {vote_average}</h4>
                       <h5>Vizyon Tsarihi: {release_date}</h5>
                       <br></br>
-                      <h6>Gesnel Bakışs</h6>
+                      <h6>Gesnel Bakış</h6>
                       <p>{overview}</p>
                       </Modal.Body>
                       <Modal.Footer>
